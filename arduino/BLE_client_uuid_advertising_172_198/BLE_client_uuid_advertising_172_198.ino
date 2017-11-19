@@ -65,7 +65,7 @@ bool connectToServer(BLEAddress pAddress) {
     Serial.println(value.c_str());
 
     pRemoteCharacteristic->registerForNotify(notifyCallback);
-}
+} 
 /**
  * Scan for BLE servers and find the first one that advertises the service we are looking for.
  */
